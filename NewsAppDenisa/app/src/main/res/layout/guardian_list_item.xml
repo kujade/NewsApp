@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/list"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        style="@style/CardViewStyle"
+        card_view:cardCornerRadius="4dp"
+        app:cardBackgroundColor = "@color/colorCards">
+
+        <TextView
+            android:id="@+id/title"
+            android:gravity="center"
+            style="@style/TextViewStyle1"
+            tools:text="Long long long long long long headline"
+            />
+
+        <TextView
+            android:id="@+id/section"
+            style="@style/TextViewStyle2"
+            tools:text="Sport" />
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/TextViewStyle3"
+            tools:text="11th September, 2019" />
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/TextViewStyle4"
+            tools:text="Author" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

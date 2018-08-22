@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <ListPreference
+        android:defaultValue="@string/section_default"
+        android:entries="@array/section_labels"
+        android:entryValues="@array/section_values"
+        android:key="@string/section_key"
+        android:title="@string/settings_section_label" />
+
+    <ListPreference
+        android:defaultValue="@string/order_default"
+        android:entries="@array/order_labels"
+        android:entryValues="@array/order_values"
+        android:key="@string/order_key"
+        android:title="@string/order_label" />
+
+
+</PreferenceScreen>
