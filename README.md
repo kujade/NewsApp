@@ -1,5 +1,9 @@
 # NewsApp
 App made in Udacity course called Android Basic Nanodegree as a 6th project.
+It gets news from Guardian server.
+There are sections to choose in Settings option: Media, Business, Film, Books and Sport.
+News can be ordered by time: oldest or newest.
+When user clicks on a view it takes him to guardian website and to the article.
 
 ![screenshot_20180823-102229](https://user-images.githubusercontent.com/38352022/44513893-efaeaf80-a6be-11e8-8718-a859fee93096.png)
 
